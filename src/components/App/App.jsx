@@ -18,7 +18,7 @@ const App = params => {
   const [isLoading, setIsLoading] = useState(false);
   const [isLoadMoreHidden, setIsLoadMoreHidden] = useState(true);
   const imgPerPage = 12;
-
+  //
   useEffect(() => {
     if (!searchQuery) {
       return;
